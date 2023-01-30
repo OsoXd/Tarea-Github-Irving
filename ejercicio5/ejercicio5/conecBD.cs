@@ -24,7 +24,15 @@ namespace ejercicio5
         //Metodo para abrir la conexion
         public void abrir()
         {
-            
+            try
+            {
+                Conectarbd.Open();
+                Console.WriteLine("conectado");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("error al abrir BD " + ex.Message);
+            }
         }
 
         //Metodo para cerrar la conexion
