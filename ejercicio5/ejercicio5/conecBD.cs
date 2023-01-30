@@ -11,8 +11,15 @@ namespace ejercicio5
 {
     internal class conecBD
     {
+        string cadena = "data source = DESKTOP-EQHDL07; Initial Catalog = BaseDatos22; Integrated Security=True";
 
-        
+        public SqlConnection Conectarbd = new SqlConnection();
+
+        //Constructor
+        public conecBD()
+        {
+            Conectarbd.ConnectionString = cadena;
+        }
 
         //Metodo para abrir la conexion
         public void abrir()
