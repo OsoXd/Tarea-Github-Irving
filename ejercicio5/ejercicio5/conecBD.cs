@@ -43,7 +43,22 @@ namespace ejercicio5
 
         public void mostrar(String datos, DataGridView grid)
         {
-            
+            string cadena = "data source = DESKTOP-EQHDL07; Initial Catalog = ejercicio5; Integrated Security=True";
+            SqlConnection conectar = new SqlConnection();
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            DataTable contenedor = new DataTable();
+            conectar.ConnectionString = cadena;
+            conectar.Open();
+            string query = "SELECT * FROM " + datos;
+            SqlCommand cmd = new SqlCommand(query, conectar);
+            try
+            {
+                cmd.ExecuteNonQuery();
+                adapter.SelectCommand = cmd;
+                adapter.Fill(contenedor);
+                grid.DataSource = contenedor;
+            }
+
             catch (SqlException ex)
             {
                 Console.WriteLine("Error " + ex.ToString());
