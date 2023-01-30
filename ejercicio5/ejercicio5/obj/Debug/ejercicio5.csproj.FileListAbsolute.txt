@@ -1,0 +1,11 @@
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\bin\Debug\ejercicio5.exe.config
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\bin\Debug\ejercicio5.exe
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\bin\Debug\ejercicio5.pdb
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\obj\Debug\ejercicio5.csproj.AssemblyReference.cache
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\obj\Debug\ejercicio5.csproj.SuggestedBindingRedirects.cache
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\obj\Debug\ejercicio5.Form1.resources
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\obj\Debug\ejercicio5.Properties.Resources.resources
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\obj\Debug\ejercicio5.csproj.GenerateResource.cache
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\obj\Debug\ejercicio5.csproj.CoreCompileInputs.cache
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\obj\Debug\ejercicio5.exe
+C:\Users\irvin\source\repos\ejercicio5\ejercicio5\obj\Debug\ejercicio5.pdb
